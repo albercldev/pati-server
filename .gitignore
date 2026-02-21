@@ -1,0 +1,7 @@
+# Data folders (db, server, etc.)
+data
+
+*.mrpack
+
+.DS_Store
+.vscode/

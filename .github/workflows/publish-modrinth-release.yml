@@ -1,0 +1,46 @@
+name: Build and Release Modpack
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'modpack/**'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Export modpack
+        working-directory: modpack
+        run: |
+          ../bin/packwiz mr export
+
+      - name: Read version from pack.toml
+        id: version
+        working-directory: modpack
+        run: |
+          VERSION=$(grep -E '^version\s*=' pack.toml | sed -E 's/version\s*=\s*"([^"]+)"/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Get generated mrpack
+        id: mrpack
+        working-directory: modpack
+        run: |
+          FILE=$(ls *.mrpack | head -n 1)
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: ${{ steps.version.outputs.version }}
+          files: modpack/${{ steps.mrpack.outputs.file }}
+          generate_release_notes: true

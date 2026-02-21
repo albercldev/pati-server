@@ -1,0 +1,96 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "17fc9c6cab5ae0ea6973440f143ad6ffa4e5d373749c80077b631dbbe4df3f3b"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "1fbcec6fae4237b80bf2becfc06fb52a49512821f402b5928b1e2533c73b3142"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "de9842a74bad2677a92f96157171b3108dcacb6a517d395006a1f158d5f46bbb"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "37a45ed98e4edc9c8224cb06f72be8914fae69687601d4e15009f1cb9f27563c"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "76a2560989102413693bbfbea83570287b3dce4f6ed40dc69aacbd3268633fe7"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "89303b44678c8e619f379545e80ad2e257801327b1065cd3320c9fe61cac7cf5"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "502d4ba2ca8c7f6f52830cfc43fc12b567023266f2b557ee2b8eea737b58f8ea"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "f7cda152847b85f770b5130db1e1569b5b86ddf09d399377d7133365922a0e08"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "7fc969e77edc3b0b9946b42070fd858349a74555f0cf9648907241af8a3a2d25"
+metafile = true
+
+[[files]]
+file = "mods/pneumono_core.pw.toml"
+hash = "819fa1f18729ecf4b95a1ada63d2cabb1a3a53e02f93145432cd80a5baa97048"
+metafile = true
+
+[[files]]
+file = "mods/pneumono_gravestones.pw.toml"
+hash = "df54013e846a658401b6fd48ed311b80c89073eddf2507a42225d21a7b69e78c"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "be0c8881821da897824770b2a71f0f3765a233eda69b295fa5b92ffe8a25014c"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "e657896d405e82e4539be5c1562f27c666a9d5ca8dad5d30052a402c4916766e"
+metafile = true

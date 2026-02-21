@@ -1,0 +1,13 @@
+name = "pati-chill"
+author = "albercl"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c858220b400233e763370fe858b00bb0f0c76f0776b8c260ba82a2ee7bec45bd"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.21.1"
